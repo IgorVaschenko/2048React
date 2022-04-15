@@ -1,0 +1,41 @@
+.helloWindow {
+    margin: 50px auto;
+    height: 1000px;
+    width: 1500px;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.verJS {
+    margin-top: 20px;
+    height: 600px;
+    width: 600px;
+    float: left;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.verReact {
+    margin-top: 20px;
+    height: 600px;
+    width: 600px;
+    float: right;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.but {
+    height: 500px;
+    width: 500px;
+    cursor: pointer;
+    background-size: cover;
+}
+
+.butJS{
+    background-image: url('../../public/2048.gif');
+}
+
+.butRec {
+    background-image: url('../../public/2048R.gif');
+}

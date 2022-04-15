@@ -1,0 +1,148 @@
+.wrapper {
+    border: 5px solid #A49381;
+    background-color: #FAF8EF;
+    height: 570px;
+    width: 450px;
+    margin: 100px auto;
+  }
+  
+  .header {
+    height: 150px;
+    position: relative;
+  }
+  
+    .header h1 {
+      font-size: 80px;
+      font-weight: bold;
+      color: #776E65;
+      position: absolute;
+      top: -40px;;
+      left: 10px;
+    }
+    
+    .header p {
+      font-size: 14px;
+      font-weight: bold;
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      padding-left: 15px;
+      color: #776E65;
+    }  
+  
+  .score {
+    width: 150px;
+    height: 50px;
+    background-color: #A49381;
+    position: absolute;
+    top: 30px;
+    right: 20px;
+    color:white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-top: 15px;
+    padding-left: 30px;
+    border-radius: 20px;
+  }
+  
+  .buttonHed {
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
+    border-radius: 5px;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background-color: #BBAD9E;
+    cursor: pointer;
+  }
+  
+  .game-board {
+    background-color: #A49381;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: stretch;
+    padding: 4px;
+    height: 400px;
+    width: 400px;
+    margin: 0 auto;
+  }
+  
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 8px;
+    padding: 4px;
+    height: 100px;
+  }
+  
+  .cell {
+    padding: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    color:white;
+  }
+  
+  .cell-2 {
+    background-color: #EEE4DA;
+    color:#7C6E63;
+  }
+  
+  .cell-4 {
+    background-color: #EEE1CC;
+    color:#7C6E63;
+  }
+  
+  .cell-8 {
+    background-color: #F3B27D;
+  }
+  
+  .cell-16 {
+    background-color: #F69768;
+  }
+  
+  .cell-32 {
+    background-color: #F77E65;
+  }
+  
+  .cell-64 {
+    background-color: #F76042;
+  }
+  
+  .cell-128 {
+    background-color: #E24731;
+  }
+  
+  .cell-256 {
+    background-color: #EDD076;
+  }
+  
+  .cell-512 {
+    background-color: #EDCD67;
+  }
+  
+  .cell-1024 {
+    background-color: #EDCB59;
+  }
+  
+  .cell-2048 {
+    background-color: green;
+  }
+
+
+  .info {
+    height: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(105, 3, 3);
+    text-align: center;
+  }
+  

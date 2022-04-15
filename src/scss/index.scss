@@ -1,0 +1,18 @@
+@import './welcome.scss';
+@import './gameControl.scss';
+
+
+body {
+    background-image: url('../../public/bg.jpg');
+    background-size: cover;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+    color: #776E65;
+    font-weight: bold;
+  }
